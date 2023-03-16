@@ -3,7 +3,13 @@
 <h1> Arbitrum Node Kurulumu + Snapshot (40 Million Block) </h1>
   
 <img width="1200" alt="647867" src="https://user-images.githubusercontent.com/76253089/225751798-96c9d054-e8a2-4780-9545-6077dded8256.png">
-
+  
+<h3>
+  
+Herhangi bir sorunla karşılaşırsanız Telegram Sohbet Grubumuza bekleriz [Core Node Chat](https://t.me/corenodechat)
+  
+</h3>
+  
 </div>
 
 <details>
@@ -57,3 +63,6 @@ rm -rf data
 ```
 docker run -d -v ~/data/arbitrum:/home/user/.arbitrum -p 0.0.0.0:8547:8547 -p 0.0.0.0:8548:8548 offchainlabs/nitro-node:v2.0.11-8e786ec --l1.url RPCURLNİZ --l2.chain-id=42161 --http.api=net,web3,eth,debug --http.corsdomain=* --http.addr=0.0.0.0 --http.vhosts=* --init.url="https://snapshot.arbitrum.io/mainnet/nitro-recent.tar"
 ```
+</details>
+
+
