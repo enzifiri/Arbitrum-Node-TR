@@ -42,7 +42,7 @@ docker run -d -v ~/data/arbitrum:/home/user/.arbitrum -p 0.0.0.0:8547:8547 -p 0.
 <details>
 
 <summary> 
-<h2> Eski Snapshot kuruluysa (22Milyon Blok) Onu silip 40 milyonlu Snapshotu kuralım.
+<h2> Eski Snapshot kuruluysa, u silip 40 milyonlu Snapshotu kuralım.
 </summary> </h2>
   
 ## Eğer sunucunuzda eski snapshotlu node kuruluysa alttaki adımlarla eski dosyaları ve docker dosyalarını silip en allta verdiğim komutla tekrar başlatın.
