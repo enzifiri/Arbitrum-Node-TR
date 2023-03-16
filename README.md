@@ -1,10 +1,17 @@
 <div align="center"> 
 
 <h1> Arbitrum Node Kurulumu + Snapshot (40 Million Block) </h1>
+  
+<img width="1200" alt="647867" src="https://user-images.githubusercontent.com/76253089/225751798-96c9d054-e8a2-4780-9545-6077dded8256.png">
 
 </div>
 
-## Sunucunuzda eski snapshot kuruluysa kurulum aşamasını geçin.
+<details>
+
+<summary> 
+<h2> SIFIRDAN KURULUM (BOŞ SERVER) 
+</summary> </h2>
+  
 
 ## Sunucu Güncelleyelim ve Docker kuralım.
 
@@ -24,7 +31,14 @@ chmod -fR 777 ~/data/arbitrum
 ```
 docker run -d -v ~/data/arbitrum:/home/user/.arbitrum -p 0.0.0.0:8547:8547 -p 0.0.0.0:8548:8548 offchainlabs/nitro-node:v2.0.11-8e786ec --l1.url RPCURLNİZ --l2.chain-id=42161 --http.api=net,web3,eth,debug --http.corsdomain=* --http.addr=0.0.0.0 --http.vhosts=* --init.url="https://snapshot.arbitrum.io/mainnet/nitro-recent.tar"
 ```
+</details>
 
+<details>
+
+<summary> 
+<h2> Eski Snapshot kuruluysa (22Milyon Blok) Onu silip 40 milyonlu Snapshotu kuralım.
+</summary> </h2>
+  
 ## Eğer sunucunuzda eski snapshotlu node kuruluysa alttaki adımlarla eski dosyaları ve docker dosyalarını silip en allta verdiğim komutla tekrar başlatın.
 
 ## Docker dosyalarını silelim
@@ -36,6 +50,7 @@ Sonra dockerlarımızı alttaki komutlarla silelim
 ```
 docker stop DOCKERIDNİZ
 docker rm DOCKERIDNİZ
+rm -rf data
 ```
 
 ## Şimdi Nodeu çalıştıralımi Aşağıdaki RPCURLNİZ yerine Infuradan / Alchemyden aldığınız ETHEREUM RPCSİNİ YAZIN.
