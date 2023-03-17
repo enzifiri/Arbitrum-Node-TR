@@ -35,7 +35,7 @@ chmod -fR 777 ~/data/arbitrum
 
 ## Şimdi Nodeu çalıştıralımi Aşağıdaki RPCURLNİZ yerine Infuradan / Alchemyden aldığınız ETHEREUM RPCSİNİ YAZIN.
 ```
-docker run -d -v ~/data/arbitrum:/home/user/.arbitrum -p 0.0.0.0:8547:8547 -p 0.0.0.0:8548:8548 offchainlabs/nitro-node:v2.0.11-8e786ec --l1.url RPCURLNİZ --l2.chain-id=42161 --http.api=net,web3,eth,debug --http.corsdomain=* --http.addr=0.0.0.0 --http.vhosts=* --init.url="https://snapshot.arbitrum.io/mainnet/nitro-recent.tar"
+docker run -d -v ~/data/arbitrum:/home/user/.arbitrum -p 0.0.0.0:8547:8547 -p 0.0.0.0:8548:8548 offchainlabs/nitro-node:v2.0.11-8e786ec --l1.url RPCURLNİZ --l2.chain-id=42161 --http.api=net,web3,eth,debug --http.corsdomain=* --http.addr=0.0.0.0 --http.vhosts=* --init.url="https://snapshot.arbitrum.io/mainnet/db.tar"
 ```
 </details>
 
@@ -61,7 +61,7 @@ rm -rf data
 
 ## Şimdi Nodeu çalıştıralımi Aşağıdaki RPCURLNİZ yerine Infuradan / Alchemyden aldığınız ETHEREUM RPCSİNİ YAZIN.
 ```
-docker run -d -v ~/data/arbitrum:/home/user/.arbitrum -p 0.0.0.0:8547:8547 -p 0.0.0.0:8548:8548 offchainlabs/nitro-node:v2.0.11-8e786ec --l1.url RPCURLNİZ --l2.chain-id=42161 --http.api=net,web3,eth,debug --http.corsdomain=* --http.addr=0.0.0.0 --http.vhosts=* --init.url="https://snapshot.arbitrum.io/mainnet/nitro-recent.tar"
+docker run -d -v ~/data/arbitrum:/home/user/.arbitrum -p 0.0.0.0:8547:8547 -p 0.0.0.0:8548:8548 offchainlabs/nitro-node:v2.0.11-8e786ec --l1.url RPCURLNİZ --l2.chain-id=42161 --http.api=net,web3,eth,debug --http.corsdomain=* --http.addr=0.0.0.0 --http.vhosts=* --init.url="https://snapshot.arbitrum.io/mainnet/db.tar"
 ```
 </details>
 
