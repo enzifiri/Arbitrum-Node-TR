@@ -58,6 +58,11 @@ docker stop DOCKERIDNİZ
 docker rm DOCKERIDNİZ
 rm -rf data
 ```
+## Arbitrum Klasörü açıp yetki verelim
+```
+mkdir -p ~/data/arbitrum
+chmod -fR 777 ~/data/arbitrum
+```
 
 ## Şimdi Nodeu çalıştıralımi Aşağıdaki RPCURLNİZ yerine Infuradan / Alchemyden aldığınız ETHEREUM RPCSİNİ YAZIN.
 ```
