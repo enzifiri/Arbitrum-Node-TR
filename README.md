@@ -1,5 +1,7 @@
+<details>
+<summary> <h1> TEST EDİLMEDİ KURMANIZI ÖNERMEM. TEST ETTİKTEN SONRA BURASI GÜNCELLENECEK TG @ENZİFİRİ </summary> </h1> 
 <div align="center"> 
-TEST EDİLMEDİ!
+
 <h1> Arbitrum Node Kurulumu + Snapshot (40 Million Block) </h1>
   
 <img width="1200" alt="647867" src="https://user-images.githubusercontent.com/76253089/225751798-96c9d054-e8a2-4780-9545-6077dded8256.png">
@@ -70,4 +72,5 @@ docker run -d -v ~/data/arbitrum:/home/user/.arbitrum -p 0.0.0.0:8547:8547 -p 0.
 ```
 </details>
 
+</details>
 
